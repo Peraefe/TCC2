@@ -204,6 +204,7 @@ fig.update_layout(
     showlegend=True,
     margin=dict(l=0, r=0, t=40, b=0),
     hovermode="closest",
+    plot_bgcolor="white",
     xaxis=dict(showline=False, showgrid=False, zeroline=False, showticklabels=False),
     yaxis=dict(showline=False, showgrid=False, zeroline=False, showticklabels=False)
 )

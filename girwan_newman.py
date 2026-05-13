@@ -134,6 +134,7 @@ fig.update_layout(
     title='Grafo com clusters Girvan-Newman',
     showlegend=False,
     hovermode='closest',
+    plot_bgcolor="white",
     margin=dict(b=20, l=5, r=5, t=40),
     xaxis=dict(showline=False, showgrid=False, zeroline=False, showticklabels=False),
     yaxis=dict(showline=False, showgrid=False, zeroline=False, showticklabels=False)
