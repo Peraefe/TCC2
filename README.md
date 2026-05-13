@@ -21,14 +21,6 @@ Todos os dados são armazenados em cache para evitar downloads ou recomputaçõe
 
 ```
 📦 repositorio
- ┣ 📂 dados_cache/          # Armazena todos os arquivos gerados
- ┃ ┣ grafo.graphml          # Grafo viário baixado do OSM
- ┃ ┣ grafo_igraph.pkl       # Representação iGraph
- ┃ ┣ centralities.pkl       # Centralidades calculadas
- ┃ ┣ resultados.pkl         # Resultados das simulações de robustez
- ┃ ┣ louvain_partition.pkl  # Clusters Louvain
- ┃ ┣ girvan_newman_partition.pkl
- ┃ ┗ outros caches...
  ┣ 🧠 centralidades_ataques.py            # Simulações de remoção de nós e métricas
  ┣ 🧭 louvain.py # Clusters Louvain + visualização
  ┣ 🧭 girwan_newman.py       # Clusters Girvan–Newman + visualização
